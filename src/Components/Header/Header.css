@@ -1,0 +1,36 @@
+.header__nav-item{
+    margin: 0;
+    padding: 0;
+    padding: 15px;
+    background-color: #ccc;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px; 
+    text-align: center;
+    letter-spacing: 0.15px;
+    margin-right: 48px;
+    color: #023135;
+    cursor: pointer;
+}
+.active{
+    background-color: gold; 
+}
+
+header{
+    margin: 0;
+    background-color: #FFECDA;
+    color: #333;
+    
+}
+.container{
+    max-width: 1260px;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
